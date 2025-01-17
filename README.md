@@ -27,12 +27,14 @@ Chatbot Handbook is a web application that provides a categorized list of resour
    git clone <repository-url>
    cd chatbot-handbook
 2. Install dependencies:
-npm install
+   ```bash
+   npm install
 
-3.Run the application:
-npm run dev
+3. Run the application:
+   ```bash
+   npm run dev
 
-4.Open your browser and navigate to http://localhost:3000 (or the port specified in the terminal).
+4. Open your browser and navigate to http://localhost:3000 (or the port specified in the terminal).
 
 Usage
 - Click on any category button to view the related items.
