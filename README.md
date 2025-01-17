@@ -20,6 +20,8 @@ Chatbot Handbook is a web application that provides a categorized list of resour
 
 ### Prerequisites
 - Node.js installed on your machine.
+  ```bash
+  https://nodejs.org/dist/v22.13.0/node-v22.13.0-x64.msi
 
 ### Installation
 1. Clone the repository:
