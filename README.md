@@ -24,7 +24,7 @@ Chatbot Handbook is a web application that provides a categorized list of resour
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Syxsxran/chatbot-handbook.git
    cd chatbot-handbook
 2. Install dependencies:
    ```bash
