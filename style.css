@@ -1,0 +1,42 @@
+body {
+      background-color: #e9f7fa;
+      font-family: "Prompt", sans-serif; /* Use the specified font */
+      color: rgb(34, 41, 47); /* Text color */
+    }
+
+    h1 {
+      font-size: 60px; /* Font size */
+      font-weight: 500; /* Font weight */
+      letter-spacing: -2px; /* Letter spacing */
+      text-align: center; /* Text alignment */
+    }
+
+    #loading {
+      font-size: 1.5em; /* Font size for loading text */
+      color: #007bff; /* Color for loading text */
+    }
+
+    .categoryButton {
+      flex: 1;
+      margin: 10px; /* Add margin for spacing */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.3s, box-shadow 0.3s;
+      border-radius: 8px;
+      padding: 20px; /* Increased padding for larger buttons */
+      font-size: 1.2em; /* Increased font size */
+      height: 100px; /* Set a fixed height */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+      background-color: white; /* Default background color */
+    }
+
+    .categoryButton:hover,
+    .categoryButton.active {
+      background-color: #00aaff; /* Change to blue on hover and active */
+      color: white;
+    }
+
+    .list-group-item:hover {
+      background-color: #d1ecf1;
+    }
