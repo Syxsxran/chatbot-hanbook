@@ -6,7 +6,7 @@ const categoryButtonsContainer = document.getElementById('categoryButtons');
     loadingIndicator.style.display = 'block';
 
     // Fetch data from Google Sheets API
-    fetch('https://script.google.com/macros/s/AKfycbxmy9_KDPqyjYgdDEc8LIhDjwnFX9jiMUY2Mcsq_YkEyna7uUxiCiAndtPkeMrz64fp_g/exec')
+    fetch('https://script.google.com/macros/s/AKfycbzF7sLLJtM2g94vEHCY2nuUH0P1UqXsrbn9Q8FX3-w26J4mLuBr0Z07Qn9cv0961fRKaw/exec')
       .then(response => response.json())
       .then(data => {
         const categories = {};
