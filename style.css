@@ -35,9 +35,7 @@ h1 {
 
 .card-title {
   font-size: 1.5em; /* Adjusted font size */
-  background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; /* Purple color */
+  color: #00aaff;
   font-weight: 600; /* Bold font weight */
 }
 
